@@ -50,6 +50,7 @@ Jiacheng Shen [@q451380149](https://github.com/q451380149)
 ## Contributing
 
 Feel free to dive in! [Open an issue](https://github.com/HurryZhao/HK_student/issues/new) or submit PRs.
+You can also [discuss with others](https://github.com/HurryZhao/HK_student/discussions).
 
 ### Contributors
 

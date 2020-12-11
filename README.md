@@ -6,8 +6,6 @@
 
 - [Background](#background)
 - [Files](#files)
-- [Install](#install)
-- [Usage](#usage)
 - [Badge](#badge)
 - [Related Efforts](#related-efforts)
 - [Maintainers](#maintainers)
@@ -20,70 +18,48 @@ As a project of course **Information Visualization**.
 
 The goals for this repository are:
 
-1. A well defined **method**. This can be imported and used to generate different types of box plot .
-2. **A Report**. It documents the different types of *boxplots* and explain how to use the methods we have created, while illustrating with plots generated with our work..
-3. A **Jupyter Noyerbook file** for users as a user guide.
-
-
+1. A **Jupyter Noyerbook file** used to replicate and improve the graph we choose.
+2. **A Essay**. It provides a detailed explanation of the graph and explains why some changes would improve the graph.
 
 ## Files
 
-- [IV_Project1.ipynb](https://github.com/HurryZhao/boxplot/blob/master/IV_Project1.ipynb) The original file for the box plot method.
-- [code](https://github.com/HurryZhao/boxplot/tree/master/code)
-  - [boxplot.py](https://github.com/HurryZhao/boxplot/blob/master/code/boxplot.py) The module used to draw box plots
-  - [test.ipynb](https://github.com/HurryZhao/boxplot/blob/master/code/test.ipynb) The file to test the module
-  - [main.py](https://github.com/HurryZhao/boxplot/blob/master/code/main.py) An example how to use the module
-- [results_merged.csv](https://github.com/HurryZhao/boxplot/blob/master/results_merged.csv) The dataset we used
-
-## Install
-
-This project can only be installed by cloning this git.
-
-```sh
-$ git clone https://github.com/HurryZhao/boxplot.git
-```
-
-## Usage
-
-import the `boxplot.py` as a module and use the method. Following is an example:
-
-```python
-from boxplot import boxplot as bp
-
-data = [[...],[...]]
-
-fig,ax=matplotlib.pyplot.subplots()
-bx.boxplot(ax,data)
-```
+- [project2.ipynb](project2.ipynb) The original file for the box plot method.
+- [Essay.md](Essay.md) The dataset we used
 
 ## Badge
-
-
 
 - README style:[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 - Completeness:![standard-readme compliant](https://img.shields.io/badge/complete-100%25-green)
 - License: ![GitHub](https://img.shields.io/github/license/HurryZhao/boxplot)
-- Watchers: ![GitHub watchers](https://img.shields.io/github/watchers/HurryZhao/boxplot?style=social)
+- Issues: ![GitHub watchers](https://img.shields.io/github/issues/HurryZhao/HK_student)
 
 ## Related Efforts
 
-- [android_test_inspector](https://github.com/luiscruz/android_test_inspector) Delivered a dataset available.
+- [Education Bureau of Hong Kong](https://www.edb.gov.hk/en/about-edb/info/welcome/index.html) Delivered a dataset available.
 
 ## Maintainers
 
-[@HurryZhao](https://github.com/HurryZhao)
+Haoran Zhao [@HurryZhao](https://github.com/HurryZhao)
 
-[@Coolplaybaobao](https://github.com/Coolplaybaobao)
+Zhaoyuan Zhai [@Coolplaybaobao](https://github.com/Coolplaybaobao)
+
+Yichen Wang [@utopianwyc](https://github.com/utopianwyc)
+
+Jiacheng Shen [@q451380149](https://github.com/q451380149)
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/HurryZhao/boxplot/issues) or submit PRs.
+Feel free to dive in! [Open an issue](https://github.com/HurryZhao/HK_student/issues/new) or submit PRs.
 
 ### Contributors
 
 [@HurryZhao](https://github.com/HurryZhao)
 
 [@Coolplaybaobao](https://github.com/Coolplaybaobao)
+
+[@utopianwyc](https://github.com/utopianwyc)
+
+[@q451380149](https://github.com/q451380149)
 
 ## License
 

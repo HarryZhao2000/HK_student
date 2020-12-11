@@ -1,4 +1,4 @@
-# Analysis and improvments for a visualization of Hong Kong post-secondary education
+# Analysis and improvements for a visualization of Hong Kong post-secondary education
 
 ## Group members
 

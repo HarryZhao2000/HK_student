@@ -22,6 +22,8 @@ The goals for this repository are:
 1. A **Jupyter Noyerbook file** used to replicate and improve the graph we choose.
 2. **A Essay**. It provides a detailed explanation of the graph and explains why some changes would improve the graph.
 
+The visualization we choosed is from [China Daily](https://www.chinadailyhk.com/articles/165/128/146/1535340488925.html).
+
 ## Files
 
 - [project2.ipynb](project2.ipynb) The Jupyter Noyerbook file used to replicate and improve the graph we choose.

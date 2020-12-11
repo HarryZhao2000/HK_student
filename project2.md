@@ -14,7 +14,7 @@
 
 Recently, we studied a line chart in a report of China Daily, which was showing the trends of Hong Kong youth's participation in four post-secondary education programs from 2000-2017. After studying the background, we deeply analyzed this information visualization in various aspects, such as its impact on society, its advantages and disadvantages as an information visualization, its issues on the aspect of analyzing information visualization, and how to improve it into a more readable visualization by combining cognitive theory, etc. With the efforts of analyzing the background and building the connections between real-world events and the visualization, we introduced the story of this visualization. We fully replicated the original information visualization by using Matplotlib, and then to make improvements, we applied the theory and principles of information visualization to it by using our critical thinking. Finally, we draw our own thoughts on the final visualization.
 
-![image](./original.jpg)
+![image](./images/original.jpg)
 
 The reason we selected this visualization was that the graph has a great impact on Hong Kong society and education. As a graph produced by Hong Kong education bureau, the data in this graph has high accuracy and authority. The theme of this graph is to show the rate of Hong Kong youth participated in a sub-degree and undergraduate program, from this visualization, we can gain a lot of valuable insights about the education state, education reform, and social issues of Hong Kong. Some insights may be applied to the same situation in other places of China.
 
@@ -36,7 +36,7 @@ However, not surprisingly, the increasing trend of participation in publicly-fun
 
 The number of other two programs “self-financing undergraduate” and “publicly-funded sub-degree” stayed slow but stable increasing trend over the period. The overall trend of the four lines is increasing.
 
-![image](./mark_issues.jpg)
+![image](./images/mark_issues.jpg)
 
 Here is a copy of our information visualization from the original website, you can easily find two basic errors here: a) the starting point of the blue line is not on its line; b) the critical value of 31.6 is not placed in the right location on the plot. The other questions about the visualization are:
 
@@ -44,13 +44,13 @@ Here is a copy of our information visualization from the original website, you c
 2. The legend and the annotation attract more attention from the readers than they should. In other words, readers are difficult to catch the main point of the plot. Also, the legends are hard to memorize for most people with limited working memory, and it would waste lots of time to check them over and over again.
 3. The color is not friendly to color blindness. The colors are very similar, and it is too troublesome to figure for those who have color blindness.
 
-![image](./color_bilndness.png)
+![image](./images/color_bilndness.png)
 
 4. The name of x ticks is confusing, and the unit of x-axis is missing.
 
 So, we modify the plot like this:
 
-![image](./change.jpg)
+![image](./images/change.jpg)
 
 1. Firstly, we delete the legend and move it to the tail of the lines to attract less attention
 2. We also delete the annotation as we thought it is unnecessary and confusing for readers to comprehend the information in the graph.
@@ -59,7 +59,7 @@ So, we modify the plot like this:
 5. According to the original title, we also marked the turning point and the highest point of the line to emphasize the “dramatic changes” of the “Self-financing sub-degree”.
 6. We change the color of the four lines to emphasize the orange line as it is the brightest one and to adjust colors friendly to color blindness.
 
-![image](./color_bilndness_changed.png)
+![image](./images/color_bilndness_changed.png)
 
 From the analysis of graph and real-world case, our final thoughts about the visualization are:
 

@@ -1,6 +1,6 @@
 # HK_student
 
- ![standard-readme compliant](https://img.shields.io/badge/complete-100%25-green) ![GitHub](https://img.shields.io/github/license/HurryZhao/boxplot) ![GitHub watchers](https://img.shields.io/github/watchers/HurryZhao/boxplot?style=social)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) ![standard-readme compliant](https://img.shields.io/badge/complete-100%25-green) ![GitHub](https://img.shields.io/github/license/HurryZhao/boxplot) ![GitHub watchers](https://img.shields.io/github/watchers/HurryZhao/boxplot?style=social)
 
 ## Table of Contents
 
@@ -8,6 +8,7 @@
 - [Files](#files)
 - [Badge](#badge)
 - [Related Efforts](#related-efforts)
+- [Contribute to the community](#contribute-to-the-community)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
 - [License](#license)
@@ -23,8 +24,10 @@ The goals for this repository are:
 
 ## Files
 
-- [project2.ipynb](project2.ipynb) The original file for the box plot method.
-- [Essay.md](Essay.md) The dataset we used
+- [project2.ipynb](project2.ipynb) The Jupyter Noyerbook file used to replicate and improve the graph we choose.
+- [data_p2.xlsx](data_p2.xlsx) The dataset we used.
+- [project2.md](project2.md) The essay provides a detailed explanation of the graph and explains why some changes would improve the graph.
+- [images](images) The images we used in the essay.
 
 ## Badge
 
@@ -36,6 +39,15 @@ The goals for this repository are:
 ## Related Efforts
 
 - [Education Bureau of Hong Kong](https://www.edb.gov.hk/en/about-edb/info/welcome/index.html) Delivered a dataset available.
+
+## Contribute to the community
+
+We have already post our analysis and ideas on some community. You can communicate with us here or just give us a like : )
+
+- [OSCHINA 🔗](https://my.oschina.net/u/4817024/blog/4793081)
+- [Reddit 🔗](https://www.reddit.com/r/visualization/comments/kb0xwf/analysis_and_improvements_for_a_visualization_of/)
+- [GitHub 🔗](https://github.com/HurryZhao/HK_student/discussions/6)
+- [CSDN 🔗](https://blog.csdn.net/qq_44889843/article/details/111051356)
 
 ## Maintainers
 
